@@ -1,0 +1,43 @@
+body {
+  background: black;
+  font-family: 'Josefin Sans', Sans-Serif;
+  font-weight: 200;
+}
+
+.jumbotron {
+  padding-top: 2rem;
+  background: #585858;
+  color: white;
+}
+
+#projects {
+  background: #585858;
+}
+
+section {
+  padding-top: 100px !important;
+}
+
+.btn {
+  color: white !important;
+  background: transparent !important;
+  border: 2px solid white !important;
+  transition: .4s;
+}
+
+.btn:hover {
+  color: black !important;
+  background: white !important;
+  border: 2px solid black !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: white !important;
+  margin: 10px !important;
+  transition: .3s !important;
+}
+
+a:hover {
+  color: #aaa !important;
+}
