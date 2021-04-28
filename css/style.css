@@ -41,3 +41,24 @@ a {
 a:hover {
   color: #aaa !important;
 }
+
+input,
+textarea {
+  color: black !important;
+  background: #585858 !important;
+  padding: 10px !important;
+}
+
+.card {
+  transition: .5s;
+}
+
+.card:hover {
+  background: black !important;
+  color: white !important;
+  transform: translateY(-10px);
+}
+
+.card img {
+  border: 1px solid white;
+}
